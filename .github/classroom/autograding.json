@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "gcc test.c -o test",
+      "run": "./test",
+      "input": "n:5  target:5 func:1\r\n5 4 3 2 1",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "test2",
+      "setup": "gcc test.c -o test",
+      "run": "./test",
+      "input": "n:5 target:5 func:0\r\n1 2 3 4 5",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "test3",
+      "setup": "gcc test.c -o test",
+      "run": "./test",
+      "input": "n:10 target:10 func:1\r\n9 8 7 6 5 4 3 2 1 0",
+      "output": "-1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "test4",
+      "setup": "gcc test.c -o test",
+      "run": "./test",
+      "input": "n:15 target:13 func:0\r\n0 1 2 3 4 5 6 7 8 9 10 11 12 13 14",
+      "output": "13",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "test5",
+      "setup": "gcc test.c -o test",
+      "run": "./test",
+      "input": "n:10 target:10 func:1\r\n9 8 7 6 5 4 3 2 1 0",
+      "output": "-1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "test6",
+      "setup": "gcc test.c -o test",
+      "run": "./test",
+      "input": "n:15 target:13 func:1\r\n14 13 12 11 10 9 8 7 6 5 4 3 2 1 0",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
