@@ -1,4 +1,4 @@
-/*asagidaki structlarin sizeofla kac byte yer kapladigini gosteriniz.*/
+/*asagidaki structlarin sizeofla kac byte yer kapladigini gosteriniz. */
 struct picture{
         int height; //4 byte
         double** data; //8 byte
