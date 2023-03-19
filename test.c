@@ -47,7 +47,6 @@ int main()
     int result = binarysearch(target,a, n, sizeof(int), fps[func]);
     printf("%d\n", result);
  
-   
     return 0;
 }
 
