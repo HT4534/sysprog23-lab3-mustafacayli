@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*bu progrmai calistirarak ne yazdirdigini inceleyiniz*/
+/*bu progrmai calistirarak ne yazdirdigini inceleyiniz */
 int main(){
     struct s0 {
         char c1[1];
