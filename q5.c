@@ -1,7 +1,6 @@
 #include <stdio.h>
 /*asagidaki structlarin sizelarini inceleyiniz
 https://gcc.gnu.org/onlinedocs/gcc/Common-Type-Attributes.html#Common-Type-Attributes
-
 */
 
 int main(){
