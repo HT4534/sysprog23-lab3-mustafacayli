@@ -27,6 +27,7 @@ int cmp1(int *a, int *b){
 
 
 /*
+
 * Complete the 'binarysearch' function below.
 * This functions searches the valued pointed by the target in the given
 address space.
@@ -40,6 +41,7 @@ address space.
 * 4. INTEGER esize: element size: e.g. sizeof(int)
 * 5. compare(): pointer to a function that compares *a and *b and
 * returns positive, 0, negative
+
 */
 int binarysearch(int target, void *base, int n, int esize, int (*compare)(int*, int*)) {
 
