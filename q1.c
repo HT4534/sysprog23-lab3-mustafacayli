@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*bu programi calistirarak ne yazdirdigini inceleyiniz*/
+/*bu programi calistirarak ne yazdirdigini inceleyiniz */
 int main(int argc, char **argv)
 {
         
