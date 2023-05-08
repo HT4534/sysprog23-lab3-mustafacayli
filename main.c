@@ -47,7 +47,7 @@ int binarysearch(int target, void *base, int n, int esize, int (*compare)(int*, 
 
   
 }
-
+-
 /*bu program su sekilde calismasi gerekiyor
 ./main 1 2 3 4 5 6 7
 argumanlar sirali diziyi(eleman sayisi belli degil), belirtmektedir.
